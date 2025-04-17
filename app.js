@@ -10,8 +10,6 @@ connectDB();
 app.use(express.json());
 app.use("/api", ideaRoutes);
 
-
-
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
